@@ -1,0 +1,34 @@
+@import "tailwindcss";
+body.light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  body.dark {
+    background-color: #1f2937;
+  }
+  
+  body.dark input,
+  body.dark select,
+  body.dark textarea {
+    background-color: #374151;
+    color: #ffffff;
+    border-color: #4b5563;
+  }
+  
+  body.dark .bg-white {
+    background-color: #1f2937 !important;
+  }
+  
+  body.dark .text-gray-800 {
+    color: #ffffff !important;
+  }
+  
+  body.dark .bg-gray-100 {
+    background-color: #374151 !important;
+  }
+  
+  body.dark .hover\\:bg-gray-100:hover {
+    background-color: #4b5563 !important;
+  }
+  
